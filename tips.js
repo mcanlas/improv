@@ -94,4 +94,9 @@ var tips = [
     description: "Draws focus to verse. Enables walk-ons",
     type: "musical"
   },
+  {
+    title: "Use the space",
+    description: "Interact with the environment",
+    type: "improv"
+  },
 ]
