@@ -31,12 +31,12 @@ var tips = [
   },
   {
     title: "Pull the trigger",
-    description: 'Subtly is not your friend. Openly state your relationship with "you make me feel <blank>"',
+    description: 'Subtly is not your friend. Openly state your relationship with "you make me feel &lt;blank&gt;"',
     type: "improv"
   },
   {
     title: "Come loaded with an emotion",
-    description: "If you come loaded, reactions will be simpler and more informed",
+    description: "Reactions will be simpler and more informed",
     type: "improv"
   },
   {
