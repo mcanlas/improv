@@ -99,4 +99,9 @@ var tips = [
     description: "Interact with the environment",
     type: "improv"
   },
+  {
+    title: "Name yourselves",
+    description: 'With relationships',
+    type: "improv"
+  },
 ]
