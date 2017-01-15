@@ -1,0 +1,32 @@
+<html>
+<body style="margin: 0; padding: 0; font-family: sans-serif">
+<script src="tips.js"></script>
+<script type="text/javascript">
+function pluckOne() {
+  var i = Math.floor(Math.random() * tips.length)
+  var one = tips.splice(i, 1)[0]
+
+  console.log(one)
+  console.log(tips.length)
+
+  return one
+}
+
+while (tips.length > 0) {
+  var tip = pluckOne()
+
+  if (tip.type == "improv") {
+    document.write('<div style="background-color: #DDDDFF; padding: .2em 1em; margin-bottom: 1em">')
+  } else {
+    document.write('<div style="background-color: #FFFFDD; padding: .2em 1em; margin-bottom: 1em">')
+  }
+
+  var emoji = (tip.type == "improv") ? '\u{1F3AD} ' : '\u{1F3B5} '
+
+  document.write("<h1>" + emoji + tip.title + "</h1>")
+  document.write("<p>" + tip.description + "</p>")
+  document.write("</div>")
+}
+</script>
+</body>
+</html>
