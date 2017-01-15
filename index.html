@@ -16,15 +16,16 @@ while (tips.length > 0) {
   var tip = pluckOne()
 
   if (tip.type == "improv") {
-    document.write('<div style="background-color: #DDDDFF; padding: .2em 1em; margin-bottom: 1em">')
+    document.write('<div style="background-color: #DDDDFF; padding: 1em 1em; margin-bottom: 1em">')
   } else {
-    document.write('<div style="background-color: #FFFFDD; padding: .2em 1em; margin-bottom: 1em">')
+    document.write('<div style="background-color: #FFFFDD; padding: 1em 1em; margin-bottom: 1em">')
   }
 
   var emoji = (tip.type == "improv") ? '\u{1F3AD} ' : '\u{1F3B5} '
 
-  document.write("<h1>" + emoji + tip.title + "</h1>")
-  document.write("<p>" + tip.description + "</p>")
+  document.write('<div style="font-size: 2em; margin-bottom: .3em"><b>' + emoji + tip.title + "</b></div>")
+
+  document.write('<div style="font-size: 150%">' + tip.description + "</div>")
   document.write("</div>")
 }
 </script>
