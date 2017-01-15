@@ -47,7 +47,7 @@ var tips = [
   {
     title: "Detail is zooming out",
     description: 'Improv is backing up. Backing up is discovery. Improv is who, what, where -- Keegan-Michael Key',
-    type: "untested"
+    type: "improv"
   },
   {
     title: "Stage picture",
